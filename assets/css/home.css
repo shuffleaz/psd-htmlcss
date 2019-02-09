@@ -1,0 +1,203 @@
+.slider-image {
+    width:100vw;
+    height:100vh;
+}
+
+.slider-image ul li {
+    display:inline-block;
+}
+
+.slider-image ul li img {
+    width:100%;
+    height:100vh;
+}
+
+
+/* Header - Saytın Başlığı */
+header.homepage {
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+
+/* Header/Menu- Menyu Hissəsi */
+.homepage-menu {
+    display:flex;
+    flex-direction: row;
+    height:68px;
+}
+
+.homepage-menu .homepage-menu-menubutton {
+    background-color:var(--green);
+    flex:1;
+}
+
+.homepage-menu .homepage-menu-menubutton a{
+    color:white;
+    padding:25px;
+    display: inline-block;
+    font-size:14px;
+}
+
+.homepage-menu .homepage-menu-hover {
+    background-color:var(--green);
+    flex:8;
+    opacity: 0;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list {
+    padding:14px;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li {
+    display: inline-block;
+    padding:11px 14px;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li.close-button {
+    float:right;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li.close-button:hover {
+    background-color:transparent;
+    color:#20671b;
+    opacity: 0.9;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li.close-button a {
+    font-size:18px;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li:hover {
+    background-color:#20671b;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li:hover a {
+    color:white;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li:last-child {
+    margin-right:0;
+}
+
+.homepage-menu .homepage-menu-hover ul.homepage-menu-hover-list li a {
+    font-size:14px;
+    color:#20671b;
+}
+
+/* Header Details - Başlıq Detayları */
+.homepage-details {
+    display:flex;
+    flex-direction: row;
+}
+
+.homepage-details .homepage-details-logo {
+    flex:2;
+    background-color:var(--dark);
+    height:110px;
+}
+
+.homepage-details .homepage-details-logo .homepage-details-logo-area {
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+
+.homepage-details .homepage-details-logo .homepage-details-logo-area img {
+    width:70%;
+    object-fit: contain;
+}
+
+
+.homepage-details .homepage-details-searchbar {
+    flex:8;
+}
+
+.homepage-details .homepage-details-searchbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-details-searchbar .homepage-details-searchbar-up {
+    background:red;
+    display: flex;
+    flex-direction: row;
+    height:60px;
+}
+
+.homepage-details-searchbar .homepage-details-searchbar-down {
+    background:green;
+}
+
+.homepage-details-searchbar .homepage-details-searchbar-up .homepage-details-searchbar-up-contact {
+    flex:2.4;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-details-searchbar-up-contact .contact-area {
+    align-self: center;
+    color:white;
+    font-size:14px;
+}
+
+.homepage-details-searchbar-up-contact .contact-area i {
+    transform: scaleX(-1);
+    color:#0081bd;
+}
+
+.homepage-details-searchbar .homepage-details-searchbar-up .homepage-details-searchbar-menu {
+    flex:7.6;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-list {
+    padding:13px;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-list li {
+    display: inline-block;
+    padding:9px 18px;
+    border-right:1px solid var(--light);
+}
+
+.homepage-details-searchbar-menu ul.searchbar-list li a {
+    font-size:12px;
+    color:#7c848b;
+    transition: all 0.3s ease-in;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-list li:hover a {
+    color:black;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-list li:last-child {
+    border-right:0;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-social-links {
+    padding:24px;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-social-links li {
+    display: inline-block;
+    margin-right:14px;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-social-links li:last-child {
+    margin-right:0;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-social-links li a {
+    color:#9aa2aa;
+    transition: all 0.3s ease-in;
+}
+
+.homepage-details-searchbar-menu ul.searchbar-social-links li:hover a {
+    color:black;
+}

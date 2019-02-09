@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 @import url('variable.css');
-
-.searchbar-social-links li:first-child a i {
-    color:red;
-}
-
-.searchbar-social-links li:nth-child(2) a i {
-    color:green;
-}
-
-.searchbar-social-links li:last-child a i {
-    color:yellow;
-}
+@import url('home.css');
