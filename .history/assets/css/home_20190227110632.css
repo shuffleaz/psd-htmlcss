@@ -222,7 +222,7 @@ header.homepage {
     border-right:1px solid #b9b9b9;
     padding-top:15px;
     padding-bottom:15px;
-    flex:1;
+    flex:2;
 }
 
 
@@ -234,7 +234,7 @@ header.homepage {
     text-transform: uppercase;
     border:none;
     padding-left:10px;
-    /* text-indent:10px; */
+    /* text-indent: 10px; */
     background-color:transparent;
     outline: none;
     -webkit-appearance: none;
@@ -274,7 +274,6 @@ header.homepage {
 }
 
 .homepage-details-searchbar-flex-first {
-    flex:2;
 }
 
 .homepage-details-searchbar-flex-second {
@@ -291,7 +290,6 @@ header.homepage {
 
 .searchbar-footer-select-form-divide {
     display:flex;
-    flex:1;
 }
 
 .searchbar-footer-select-form-divide-first, .searchbar-footer-select-form-divide-second, .searchbar-footer-down-select-form  {
@@ -305,7 +303,6 @@ header.homepage {
     border-right:1px solid #b9b9b9;
     padding-top:15px;
     padding-bottom:15px;
-    flex:1;
 }
 
 .searchbar-footer-select-form-divide-first select, .searchbar-footer-select-form-divide-second select, .searchbar-footer-down-select-form select {
@@ -315,9 +312,9 @@ header.homepage {
     font-family: var(--font);
     text-transform: uppercase;
     border:none;
-    padding-left:10px;
     background-color:transparent;
     outline: none;
+    padding-left:10px;
     -webkit-appearance: none;
     -moz-appearance:none;
 }

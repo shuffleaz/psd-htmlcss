@@ -233,8 +233,6 @@ header.homepage {
     font-family: var(--font);
     text-transform: uppercase;
     border:none;
-    padding-left:10px;
-    /* text-indent:10px; */
     background-color:transparent;
     outline: none;
     -webkit-appearance: none;
@@ -291,7 +289,7 @@ header.homepage {
 
 .searchbar-footer-select-form-divide {
     display:flex;
-    flex:1;
+    flex:2;
 }
 
 .searchbar-footer-select-form-divide-first, .searchbar-footer-select-form-divide-second, .searchbar-footer-down-select-form  {
@@ -315,7 +313,6 @@ header.homepage {
     font-family: var(--font);
     text-transform: uppercase;
     border:none;
-    padding-left:10px;
     background-color:transparent;
     outline: none;
     -webkit-appearance: none;
@@ -333,7 +330,6 @@ header.homepage {
     font-size:12px;
     text-align: left;
     color:#4a525d;
-    padding-left:10px;
     font-family: var(--font);
     text-transform: uppercase;
 }
